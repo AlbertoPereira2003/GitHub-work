@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <base href="https://2learnweb.brookhavencollege.edu/ColemanHawkins/gallery.html">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery</title>
@@ -30,7 +31,7 @@ Gallery
   </nav>
 
 <figure>
-    <a href="pictures/picture 1.jpg" width: "250px"> <img src="pictures/picture 1 small.jpg" width: "250px" alt="Sample Image"></a>
+    <a href="pictures/picture 1.jpg" > <img src="pictures/picture 1 small.jpg"  alt="Sample Image"></a>
 
 <figcaption>
 A calendar honoring Coleman Hawkins. 
@@ -38,7 +39,7 @@ A calendar honoring Coleman Hawkins.
 </figure>
 
 <figure>
-  <a href="pictures/picture 2.jpg" width: "250px"> <img src="pictures/picture 2 small.jpg" width: "250px" alt="Sample Image"></a>
+  <a href="pictures/picture 2.jpg" > <img src="pictures/picture 2 small.jpg"  alt="Sample Image"></a>
 
 <figcaption>
 Coleman Hawkins playing in a music studio.
@@ -46,7 +47,7 @@ Coleman Hawkins playing in a music studio.
 </figure>
 
 <figure>
-  <a href="pictures/picture 3.jpg" width: "250px"><img src="pictures/picture 3 small.jpg" width: "250px" alt="Sample Image"></a>
+  <a href="pictures/picture 3.jpg" ><img src="pictures/picture 3 small.jpg"  alt="Sample Image"></a>
 
 <figcaption>
 Coleman Hawkins playing many of his great songs.
@@ -54,7 +55,7 @@ Coleman Hawkins playing many of his great songs.
 </figure>
 
 <figure>
-  <a href="pictures/picture 4.jpg" width: "250px"><img src="pictures/picture 4 small.jpg" width: "250px" alt="Sample Image"></a>
+  <a href="pictures/picture 4.jpg" ><img src="pictures/picture 4 small.jpg"  alt="Sample Image"></a>
 
 <figcaption>
 A statue of Coleman Hawkins created in honor of his great successes in music.
@@ -62,7 +63,7 @@ A statue of Coleman Hawkins created in honor of his great successes in music.
 </figure>
 
 <figure>
-  <a href="pictures/picture 5.jpg" width: "250px"><img src="pictures/picture 5 small.jpg" width: "250px" alt="Sample Image"></a>
+  <a href="pictures/picture 5.jpg" ><img src="pictures/picture 5 small.jpg"  alt="Sample Image"></a>
 
 <figcaption>
 They made a drawing of Coleman Hawkins showing great admiration for his great successes in music.
@@ -70,7 +71,7 @@ They made a drawing of Coleman Hawkins showing great admiration for his great su
 </figure>
 
 <figure>
-  <a href="pictures/picture 6.jpg" width: "250px"><img src="pictures/picture 6 small.jpg" width: "250px" alt="Sample Image"></a>
+  <a href="pictures/picture 6.jpg" ><img src="pictures/picture 6 small.jpg"  alt="Sample Image"></a>
 
 <figcaption>
   In this image he is presented as he dressed so elegantly and was shown in a statue made in his honor and represents a great musical culture for Jazz and musical genres.
