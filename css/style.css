@@ -1,0 +1,222 @@
+style.css body {
+    font-family : Arial, sans-serif;
+    }
+    header, footer, section, h1 {
+    color : red;
+    border-top : solid green;
+    background-color : yellowgreen;
+    }
+    h2 {
+    color : blue;
+    border-top : solid green;
+    }
+    p {
+    color : greenyellow;
+    border-top : solid green;
+    }
+    h1 {
+    color : blue;
+    font-style : italic;
+    }
+    header {
+    color : blue;
+    border-top : solid green;
+    }
+    footer {
+    color : blue;
+    border-top : solid darkblue;
+    }
+    header {
+    background-color : violet;
+    width : 100%;
+    }
+    nav {
+    background-color : lightgreen;
+    width : 100%;
+    }
+    footer {
+    background-color : lightblue;
+    width : 100%;
+    }
+    section {
+    background-color : pink;
+    width : 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    font-weight : bold;
+    color : rgb(133, 4, 4);
+    }
+    p {
+    color : #36318d;
+    }
+    a:link {
+    color : rgb(127, 3, 3);
+    }
+    a:visited {
+    color : #00FF00;
+    }
+    a:hover {
+    color : #FF00FF;
+    }
+    a:active {
+    color : #0000FF;
+    }
+    *, *:before, *:after {
+    box-sizing : inherit;
+    }
+    figure {
+    border : #c0c0c0 solid thin;
+    flex-flow : column;
+    padding : 5px;
+    display : flex;
+    }
+    .image {
+    border-radius : 25px;
+    box-sizing : border-box;
+    }
+    .image1 {
+    border-radius : 25px;
+    box-sizing : border-box;
+    }
+    figure figcaption {
+    background-color : pink;
+    color : #1c1313;
+    font : italic smaller sans-serif;
+    padding : 3px;
+    text-align : center;
+    float : right;
+    }
+    body {
+    background-color : whitesmoke;
+    font-family : Arial, Helvetica, sans-serif;
+    }
+    main {
+    color : #202020;
+    margin : 0 2em;
+    padding : 8px 16px;
+    }
+    header {
+    background-color : #2E6C85;
+    width : 100%;
+    }
+    header img {
+    position : absolute;
+    top : 1rem;
+    right : 10%;
+    z-index : 5;
+    width : auto;
+    max-width : 15vw;
+    height : auto;
+    }
+    figure {
+    float : right;
+    float : left;
+    width : 35vw;
+    margin : 2vh 0;
+    }
+    article:nth-child(even) > figure {
+    float : right;
+    }
+    figure img {
+    display : block;
+    height : 185px;
+    width : 185px;
+    margin-left : auto;
+    margin-right : auto;
+    }
+    html {
+    box-sizing : border-box;
+    }
+    *, *:before, *:after {
+    box-sizing : inherit;
+    }
+    body {
+    margin : 0;
+    }
+    article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display : block;
+    }
+    summary {
+    display : list-item;
+    }
+    audio, canvas, progress, video {
+    display : inline-block;
+    }
+    progress {
+    vertical-align : baseline;
+    }
+    audio:not([controls]) {
+    display : none;
+    height : 0;
+    }
+    [hidden], template {
+    display : none;
+    }
+    a {
+    background-color : transparent;
+    }
+    a:active, a:hover {
+    outline-width : 0;
+    }
+    abbr[title] {
+    border-bottom : none;
+    text-decoration : underline;
+    text-decoration : underline dotted;
+    }
+    b, strong {
+    font-weight : bolder;
+    }
+    dfn {
+    font-style : italic;
+    }
+    mark {
+    background : #ff0;
+    color : #000;
+    }
+    small {
+    font-size : 80%;
+    }
+    sub, sup {
+    font-size : 75%;
+    line-height : 0;
+    position : relative;
+    vertical-align : baseline;
+    }
+    sub {
+    bottom : -0.25em;
+    }
+    sup {
+    top : -0.5em;
+    }
+    figure {
+    margin : 1em 40px;
+    }
+    img {
+    border-style : none;
+    }
+    code, kbd, pre, samp {
+    font-family : monospace, monospace;
+    font-size : 1em;
+    }
+    hr {
+    box-sizing : content-box;
+    height : 0;
+    overflow : visible;
+    }
+    button, input, select, textarea, optgroup {
+    font : inherit;
+    margin : 0;
+    }
+    optgroup {
+    font-weight : bold;
+    }
+    button, input {
+    overflow : visible;
+    }
+    button, select {
+    text-transform : none;
+    }
+a:link { color:rgb(127, 3, 3); } /* unvisited link */
+a:visited { color:#00FF00; } /* visited link */
+a:hover { color:#FF00FF; } /* mouse over link */
+a:active { color:#0000FF; }  /* selected link */
