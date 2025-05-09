@@ -4,19 +4,19 @@ import java.util.ArrayList;
 
 public class GameStatsService {
     private Map<String, PlayerProfile> profiles = new HashMap<>();
-    private ArrayList<Player> players; // Reference to the game's player list
+    private ArrayList<Player> players; 
 
     // Constructor that receives the player list
     public GameStatsService(ArrayList<Player> players) {
         this.players = players;
-        initializeProfiles(); // Call the method to initialize profiles at the start
+        initializeProfiles(); 
     }
 
     // Method to initialize player profiles
     private void initializeProfiles() {
         if (players != null) {
             for (Player player : players) {
-                // Assuming each Player has a getPlayerId() method
+                
                 createNewProfile(player.getPlayerId(), player.getName());
             }
         }
@@ -80,9 +80,7 @@ public class GameStatsService {
         }
     }
 
-    /**
-     * Displays the profile information for all players. This method is for administrator use.
-     */
+ 
     public void displayAllProfiles() {
         if (profiles.isEmpty()) {
             System.out.println("No player profiles available.");
@@ -91,7 +89,7 @@ public class GameStatsService {
 
         System.out.println("\n--- All Player Stats ---");
         for (PlayerProfile profile : profiles.values()) {
-            System.out.println(profile); // Assumes PlayerProfile has a suitable toString()
+            System.out.println(profile); 
             System.out.println("--------------------");
         }
     }
